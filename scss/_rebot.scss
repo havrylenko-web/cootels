@@ -1,0 +1,57 @@
+/* Rebot page */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	color: $blue-2;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Interactive */
+button {
+	cursor: pointer;
+}
+
+img {
+	display: block;
+}
+
+/* Helper classes */
+.hidden {
+	overflow: hidden;
+}
